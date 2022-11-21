@@ -1,0 +1,36 @@
+//#include <iostream>
+//using namespace std;
+//
+//class Circle {
+//	int radius;
+//public:
+//	Circle();
+//	Circle(int r);
+//	~Circle(); //소멸자
+//	void setRadius(int r) { radius = r; }
+//	double getArea() { return 3.14 * radius * radius; }// 면적을 구하는 함수
+//};
+//
+//Circle::Circle() {
+//	radius = 1;
+//	cout << "생성자 실행 radius= " << radius << endl;
+//}
+//
+//Circle::Circle(int r) {
+//	radius = r;
+//	cout << "생성자 실행 radius= " << radius << endl;
+//}
+//
+//Circle::~Circle() {
+//	cout << "소멸자 실행 radius= " << radius << endl;
+//}
+//
+//int main() {
+//	Circle* p, * q;
+//	p = new Circle;
+//	q = new Circle(30);
+//	cout << p->getArea() << endl << q->getArea() << endl;
+//
+//	delete p; //생성 순서와 관계없이 원하는 순서대로 delete할 수 있음
+//	delete q;
+//}
